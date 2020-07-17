@@ -19,7 +19,7 @@
         <div class ="name1" title = "ლუკა აფციაური">
           <svg viewBox="0 0 830 160">
             <symbol id="s-text">
-              <text text-anchor="middle" x="50%" y="50%">ლუკა აფციაური</text>
+              <text id="banani" text-anchor="middle" x="50%" y="50%">ლუკა აფციაური</text>
             </symbol>
 
             <g class = "g-ants">
@@ -39,14 +39,18 @@
       </div>
     </div>
     <div id="body">
-      <div id = "side">
-        <a id="1"><p>მთავარი</p><img src="site/imgs/blackboard.svg"></a>
-        <a id="2"><p>ჰობი</p><img src="site/imgs/dreamcatcher.svg"></a>
-        <a id="3"><p>გამოცდილება</p><img src="site/imgs/cup.svg"></a>
-        <a id="4"><p>განათლება</p><img src="site/imgs/study.svg"></a>
+      <div class = "side">
+        <a id="1"><p id="one">მთავარი</p><img src="site/imgs/blackboard.svg"></a>
+        <a id="2"><p id="one1">ჰობი</p><img src="site/imgs/dreamcatcher.svg"></a>
+        <a id="3"><p id="one2">გამოცდილება</p><img src="site/imgs/cup.svg"></a>
+        <a id="4"><p id="one3">განათლება</p><img src="site/imgs/study.svg"></a>
       </div>
       <div id = "content">
-
+      </div>
+    </div>
+    <div id="lang">
+      <div class = "side">
+        <a onclick="langChange()"><p id = "eng">ENGLISH</p></a>
       </div>
     </div>
     <div>
@@ -67,25 +71,57 @@
     </div>
   </div>
   <script>
-    document.getElementById("1").onclick = function () {change1()}
-    function change1() {
-      document.getElementById("hdr").innerHTML = "მთავარი";
-    }
-    document.getElementById("2").onclick = function () {change2()}
-    function change2() {
-      document.getElementById("hdr").innerHTML = "ჰობი";
-    }
-    document.getElementById("3").onclick = function () {change3()}
-    function change3() {
-      document.getElementById("hdr").innerHTML = "გამოცდილება";
-    }
-    document.getElementById("4").onclick = function () {change4()}
-    function change4() {
-      document.getElementById("hdr").innerHTML = "განათლება";
-    }
+    var english = /^[A-Za-z0-9]*$/;
+
     $(function () {
       $('#titleh').removeClass('titleh2')
     })
+    document.getElementById("1").onclick = function () {change1()}
+    function change1() {
+      document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
+    }
+    document.getElementById("2").onclick = function () {change2()}
+    function change2() {
+      document.getElementById("hdr").innerHTML = document.getElementById("one1").innerHTML;
+    }
+    document.getElementById("3").onclick = function () {change3()}
+    function change3() {
+      document.getElementById("hdr").innerHTML = document.getElementById("one2").innerHTML;
+    }
+    document.getElementById("4").onclick = function () {change4()}
+    function change4() {
+      document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
+    }
+
+    function langChange() {
+      let temp = document.getElementById("hdr").innerHTML;
+      if(english.test(temp)){
+        document.getElementById("one").innerHTML = "მთავარი";
+        document.getElementById("one1").innerHTML = "ჰობი";
+        document.getElementById("one2").innerHTML = "გამოცდილება";
+        document.getElementById("one3").innerHTML = "განათლება";
+        document.getElementById("banani").innerHTML = "ლუკა აფციაური";
+      }
+      else{
+        document.getElementById("one").innerHTML = "Home";
+        document.getElementById("one1").innerHTML = "Hobby";
+        document.getElementById("one2").innerHTML = "Experience";
+        document.getElementById("one3").innerHTML = "Education";
+        document.getElementById("banani").innerHTML = "Luka Aptsiauri";
+      }
+      if(document.getElementById("eng").innerHTML === "ქარუთული"){
+        document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
+        document.getElementById("eng").innerHTML = "ENGLISH";
+      }
+      else{
+        document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML
+        document.getElementById("eng").innerHTML = "ქარუთული";
+      }
+      console.log(temp);
+
+      /*if(document.getElementById("eng").onclick){document.getElementById("eng").innerHTML = "ქარ"}*/
+    }
+
   </script>
 </body>
 </html>
