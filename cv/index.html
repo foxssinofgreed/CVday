@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en, ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ლუკა აფციაური</title> <!-- personal stuff for change -->
+  <link rel= "stylesheet" type="text/css" href="site/style.css">
+  <link rel= "stylesheet" type="text/css" href="site/name.css">
+  <link rel= "shortcut icon" type="image/svg" href="site/imgs/icon-1-1.svg"> <!-- personal stuff for change -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+</head>
+<body>
+  <div id = "main">
+    <div class = "header">
+      <div id = "img">
+        <img src= "site/imgs/icon-2.svg" alt= "person"> <!-- personal stuff for change -->
+      </div>
+      <div id = "namestf">
+        <div class ="name1" title = "ლუკა აფციაური">
+          <svg viewBox="0 0 830 160">
+            <symbol id="s-text">
+              <text text-anchor="middle" x="50%" y="50%">ლუკა აფციაური</text>
+            </symbol>
+
+            <g class = "g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
+        </div>
+        <div class = "name2">
+          <div id = "titleh" class = "titleh2">
+            <h1 id="hdr">მთავარი</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="body">
+      <div id = "side">
+        <a id="1"><p>მთავარი</p><img src="site/imgs/blackboard.svg"></a>
+        <a id="2"><p>ჰობი</p><img src="site/imgs/dreamcatcher.svg"></a>
+        <a id="3"><p>გამოცდილება</p><img src="site/imgs/cup.svg"></a>
+        <a id="4"><p>განათლება</p><img src="site/imgs/study.svg"></a>
+      </div>
+      <div id = "content">
+
+      </div>
+    </div>
+    <div>
+      <div id="footer">
+        <div class="contact">
+          <a href="https://www.facebook.com/luka.aptsiauri.5" target="_blank"><img src="site/imgs/social/facebook.svg"><p>Luka Aptsiauri</p></a>
+          <a href="https://twitter.com/FoxsSinOfGreed2" target="_blank"><img src="site/imgs/social/twitter.svg"><p>Fox's Sin Of Greed</p></a>
+        </div>
+        <div class="contact">
+          <a href="https://www.instagram.com/luka_aptsiauri" target="_blank"><img src="site/imgs/social/instagram.svg"><p>luka_aptsiauri</p></a>
+          <a href="https://www.linkedin.com/in/luka-aptsiauri-a81195174/" target="_blank"><img src="site/imgs/social/linkedin.svg"><p>Luka Aptsiauri</p></a>
+        </div>
+        <div class="contact" id="cont">
+          <a><img src="site/imgs/contact/phone-book.svg"><p>+995 591 005 355</p></a>
+          <a><img src="site/imgs/contact/email.svg"><p>l_aptsiauri@cu.edu.ge</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("1").onclick = function () {change1()}
+    function change1() {
+      document.getElementById("hdr").innerHTML = "მთავარი";
+    }
+    document.getElementById("2").onclick = function () {change2()}
+    function change2() {
+      document.getElementById("hdr").innerHTML = "ჰობი";
+    }
+    document.getElementById("3").onclick = function () {change3()}
+    function change3() {
+      document.getElementById("hdr").innerHTML = "გამოცდილება";
+    }
+    document.getElementById("4").onclick = function () {change4()}
+    function change4() {
+      document.getElementById("hdr").innerHTML = "განათლება";
+    }
+    $(function () {
+      $('#titleh').removeClass('titleh2')
+    })
+  </script>
+</body>
+</html>
