@@ -13,7 +13,7 @@ body{
 #main{
   width: 90%;
   max-width: 910px;
-  height: 1080px;
+  height: 1090px;
   background: #3c7d7e;
   margin: 40px auto;
   position: center;
@@ -182,7 +182,7 @@ svg {
   height: 30%;
   border: 1px solid #94bad8;
   border-radius: 9px;
-  margin-left: 24px;
+  margin-left: 35px;
   margin-top: 170px;
   padding: 10px;
 }
