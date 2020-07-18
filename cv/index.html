@@ -2,7 +2,7 @@
 <html lang="en, ka">
 <head>
   <meta charset="UTF-8">
-  <title>ლუკა აფციაური</title> <!-- personal stuff for change -->
+  <title id="banani2">ლუკა აფციაური</title> <!-- personal stuff for change -->
   <link rel= "stylesheet" type="text/css" href="site/style.css">
   <link rel= "stylesheet" type="text/css" href="site/name.css">
   <link rel= "shortcut icon" type="image/svg" href="site/imgs/icon-1-1.svg"> <!-- personal stuff for change -->
@@ -16,7 +16,7 @@
         <img src= "site/imgs/icon-2.svg" alt= "person"> <!-- personal stuff for change -->
       </div>
       <div id = "namestf">
-        <div class ="name1" title = "ლუკა აფციაური">
+        <div class ="name1" id="name1" title = "ლუკა აფციაური">
           <svg viewBox="0 0 830 160">
             <symbol id="s-text">
               <text id="banani" text-anchor="middle" x="50%" y="50%">ლუკა აფციაური</text>
@@ -101,6 +101,8 @@
         document.getElementById("one2").innerHTML = "გამოცდილება";
         document.getElementById("one3").innerHTML = "განათლება";
         document.getElementById("banani").innerHTML = "ლუკა აფციაური";
+        document.getElementById("banani2").innerHTML = "ლუკა აფციაური";
+        document.getElementById("name1").title = "ლუკა აფციაური";
       }
       else{
         document.getElementById("one").innerHTML = "Home";
@@ -108,6 +110,8 @@
         document.getElementById("one2").innerHTML = "Experience";
         document.getElementById("one3").innerHTML = "Education";
         document.getElementById("banani").innerHTML = "Luka Aptsiauri";
+        document.getElementById("banani2").innerHTML = "Luka Aptsiauri";
+        document.getElementById("name1").title = "Luka Aptsiauri";
       }
       if(document.getElementById("eng").innerHTML === "ქარუთული"){
         document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
