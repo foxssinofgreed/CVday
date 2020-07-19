@@ -44,9 +44,11 @@ function langChange() {
     if(document.getElementById("eng").innerHTML === "ქარუთული"){
         document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
         document.getElementById("eng").innerHTML = "ENGLISH";
+        document.getElementById("eng1").src = "site/imgs/flags/united-kingdom.svg";
     }
     else{
         document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML
         document.getElementById("eng").innerHTML = "ქარუთული";
+        document.getElementById("eng1").src = "site/imgs/flags/georgia.svg";
     }
 }
