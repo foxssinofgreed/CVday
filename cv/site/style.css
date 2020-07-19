@@ -137,7 +137,7 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 10px;
   user-select: none;
 }
 .side a{
@@ -168,11 +168,36 @@ svg {
   height: 40px;
 }
 /*------------------------------------*/
-
-
+#content ul{
+  margin-top: 40px;
+}
+#content li{
+  margin-left: 120px;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+#i00{
+  list-style-image: url("imgs/content/man.svg");
+}
+#i01{
+  list-style-image: url("imgs/content/newborn.svg");
+}
+#i02{
+  list-style-image: url("imgs/content/location.svg");
+}
+#i03{
+  list-style-image: url("imgs/content/graduated.svg");
+}
+#i04{
+  list-style-image: url("imgs/content/height.svg");
+}
+#i05{
+  list-style-image: url("imgs/content/scale.svg");
+}
 /*------------------------------------*/
 #lang{
   margin-top: auto;
+  width: 240px;
 }
 /*------------------------------------*/
 #footer{
