@@ -72,7 +72,7 @@ document.getElementById("3").onclick = function () {change3()};
 function change3() {
     document.getElementById("hdr").innerHTML = document.getElementById("one2").innerHTML;
     if(!english.test(document.getElementById("hdr").innerHTML)){
-        
+
     }
 }
 document.getElementById("4").onclick = function () {change4()};
@@ -139,4 +139,3 @@ function langChange() {
         document.getElementById("i05").style.listStyleImage = "url('site/imgs/content/scale.svg')";
     }
 }
-
