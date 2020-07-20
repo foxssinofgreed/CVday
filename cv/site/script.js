@@ -64,7 +64,7 @@ function change2() {
         document.getElementById("i03").style.listStyleImage = "url('site/imgs/content/saxophone.svg')";
         document.getElementById("i04").innerHTML = "Skiing";
         document.getElementById("i04").style.listStyleImage = "url('site/imgs/content/ski.svg')";
-        document.getElementById("i05").innerHTML = "Swimming professionally in the past now just for fun";
+        document.getElementById("i05").innerHTML = "Swimming";
         document.getElementById("i05").style.listStyleImage = "url('site/imgs/content/swimming.svg')";
     }
 }
