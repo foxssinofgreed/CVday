@@ -79,6 +79,10 @@ document.getElementById("4").onclick = function () {change4()};
 function change4() {
     document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
 }
+document.getElementById("5").onclick = function () {change5()}
+function change5() {
+    document.getElementById("hdr").innerHTML = document.getElementById("one4").innerHTML;
+}
 
 function langChange() {
     let temp = document.getElementById("hdr").innerHTML;
@@ -87,6 +91,7 @@ function langChange() {
         document.getElementById("one1").innerHTML = "ჰობი";
         document.getElementById("one2").innerHTML = "გამოცდილება";
         document.getElementById("one3").innerHTML = "განათლება";
+        document.getElementById("one4").innerHTML = "უნარი";
         document.getElementById("banani").innerHTML = "ლუკა აფციაური";
         document.getElementById("banani2").innerHTML = "ლუკა აფციაური";
         document.getElementById("name1").title = "ლუკა აფციაური";
@@ -96,6 +101,7 @@ function langChange() {
         document.getElementById("one1").innerHTML = "Hobby";
         document.getElementById("one2").innerHTML = "Experience";
         document.getElementById("one3").innerHTML = "Education";
+        document.getElementById("one4").innerHTML = "Skills";
         document.getElementById("banani").innerHTML = "Luka Aptsiauri";
         document.getElementById("banani2").innerHTML = "Luka Aptsiauri";
         document.getElementById("name1").title = "Luka Aptsiauri";
