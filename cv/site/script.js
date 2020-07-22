@@ -5,6 +5,7 @@ $(function () {
 });
 
 $("#p1").hide(1);
+$("#p2").hide(1);
 
 document.getElementById("1").onclick = function () {change1()};
 function change1() {
@@ -217,6 +218,13 @@ function langChange() {
     if(english.test(temp)){
         $("#ul").show(1);
         $("#p1").hide(1);
+        $("#p2").hide(1);
+        $("#i00").show(1);
+        $("#i01").show(1);
+        $("#i02").show(1);
+        $("#i03").show(1);
+        $("#i04").show(1);
+        $("#i05").show(1);
         document.getElementById("one").innerHTML = "მთავარი";
         document.getElementById("one1").innerHTML = "ჰობი";
         document.getElementById("one2").innerHTML = "გამოცდილება";
@@ -229,6 +237,13 @@ function langChange() {
     else{
         $("#ul").show(1);
         $("#p1").hide(1);
+        $("#p2").hide(1);
+        $("#i00").show(1);
+        $("#i01").show(1);
+        $("#i02").show(1);
+        $("#i03").show(1);
+        $("#i04").show(1);
+        $("#i05").show(1);
         document.getElementById("one").innerHTML = "Home";
         document.getElementById("one1").innerHTML = "Hobby";
         document.getElementById("one2").innerHTML = "Experience";
