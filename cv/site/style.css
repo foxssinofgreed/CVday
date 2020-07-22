@@ -169,7 +169,7 @@ svg {
 }
 /*------------------------------------*/
 #content ul{
-  margin-top: 40px;
+  margin-top: 65px;
 }
 #content li{
   margin-left: 120px;
@@ -193,6 +193,18 @@ svg {
 }
 #i05{
   list-style-image: url("imgs/content/scale.svg");
+}
+#p1{
+  text-align: left;
+  line-height: 2.2;
+  margin-left: 55px;
+  margin-right: 49px;
+  margin-top: 130px;
+}
+#p2{
+  text-align: left;
+  margin-left: 110px;
+  margin-top: 50px;
 }
 /*------------------------------------*/
 #lang{
