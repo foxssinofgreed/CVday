@@ -140,9 +140,9 @@ function change4() {
         $("#i04").hide(1);
         $("#i05").hide(1);
         document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
-        document.getElementById("i00").innerHTML = " - 2018 დავმთავრე კერძო სკოლა ქორალი";
+        document.getElementById("i00").innerHTML = "2014 - 2018 დავამთავრე კერძო სკოლა ქორალი";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/edu/qoralilogo.svg')";
-        document.getElementById("i01").innerHTML = "2018 - ამ დრომდე კავკასიის უნივერსიტეტი";
+        document.getElementById("i01").innerHTML = "2018 - 2022 კავკასიის უნივერსიტეტი";
         document.getElementById("i01").style.listStyleImage = "url('site/imgs/edu/CUlogo.svg')";
         document.getElementById("p2").innerHTML = "ბაკალავრი კომპიუტერული მეცნიერებები და პროგრამირება";
     }
@@ -155,9 +155,9 @@ function change4() {
         $("#i04").hide(1);
         $("#i05").hide(1);
         document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
-        document.getElementById("i00").innerHTML = "     - 2018 : Graduated private high school Qorali";
+        document.getElementById("i00").innerHTML = "2014 - 2018 : Graduated private high school Qorali";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/edu/qoralilogo.svg')";
-        document.getElementById("i01").innerHTML = "2018 - Present : Caucasus University";
+        document.getElementById("i01").innerHTML = "2018 - 2022 : Caucasus University";
         document.getElementById("i01").style.listStyleImage = "url('site/imgs/edu/CUlogo.svg')";
         document.getElementById("p2").innerHTML = "Bachelor of computer science and programming";
     }
