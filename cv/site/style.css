@@ -176,6 +176,9 @@ svg {
   margin-top: 40px;
   padding-left: 20px;
 }
+#content{
+
+}
 #i00{
   list-style-image: url("imgs/content/man.svg");
 }
@@ -195,10 +198,11 @@ svg {
   list-style-image: url("imgs/content/scale.svg");
 }
 #p1{
+  width: 550px;
   text-align: left;
   line-height: 2.2;
   margin-left: 55px;
-  margin-right: 49px;
+  margin-right: 45px;
   margin-top: 130px;
 }
 #p2{
