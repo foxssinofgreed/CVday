@@ -6,6 +6,7 @@ $(function () {
 
 $("#p1").hide(1);
 $("#p2").hide(1);
+$("#i06").hide(1);
 
 document.getElementById("1").onclick = function () {change1()};
 function change1() {
@@ -20,6 +21,7 @@ function change1() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("i00").innerHTML = "ლუკა აფციაური";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/content/man.svg')";
         document.getElementById("i01").innerHTML = "29/02/2000";
@@ -43,6 +45,7 @@ function change1() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("i00").innerHTML = "Luka Aptsiauri";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/content/man.svg')";
         document.getElementById("i01").innerHTML = "29/02/2000";
@@ -70,6 +73,7 @@ function change2() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("i00").innerHTML = "ფორტეპიანოზე დაკვრა და მუსიკის წერა";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/content/piano.svg')";
         document.getElementById("i01").innerHTML = "ჭადრაკის თამაში";
@@ -93,6 +97,7 @@ function change2() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("i00").innerHTML = "Playing on piano and composing music";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/content/piano.svg')";
         document.getElementById("i01").innerHTML = "Playing chess";
@@ -139,6 +144,7 @@ function change4() {
         $("#i03").hide(1);
         $("#i04").hide(1);
         $("#i05").hide(1);
+        $("#i06").hide(1);
         document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
         document.getElementById("i00").innerHTML = "2014 - 2018 დავამთავრე კერძო სკოლა ქორალი";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/edu/qoralilogo.svg')";
@@ -154,6 +160,7 @@ function change4() {
         $("#i03").hide(1);
         $("#i04").hide(1);
         $("#i05").hide(1);
+        $("#i06").hide(1);
         document.getElementById("hdr").innerHTML = document.getElementById("one3").innerHTML;
         document.getElementById("i00").innerHTML = "2014 - 2018 : Graduated private high school Qorali";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/edu/qoralilogo.svg')";
@@ -175,11 +182,12 @@ function change5() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
-        document.getElementById("i00").innerHTML = "C & C++";
+        $("#i06").show(1);
+        document.getElementById("i00").innerHTML = "C | C++";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/skillz/cpp.svg')";
-        document.getElementById("i01").innerHTML = "JavaScript & JQuery";
+        document.getElementById("i01").innerHTML = "JavaScript | JQuery";
         document.getElementById("i01").style.listStyleImage = "url('site/imgs/skillz/js.svg')";
-        document.getElementById("i02").innerHTML = "HTML & CSS";
+        document.getElementById("i02").innerHTML = "HTML | CSS";
         document.getElementById("i02").style.listStyleImage = "url('site/imgs/skillz/css.svg')";
         document.getElementById("i03").innerHTML = "Microsoft Excel";
         document.getElementById("i03").style.listStyleImage = "url('site/imgs/skillz/xls.svg')";
@@ -187,6 +195,8 @@ function change5() {
         document.getElementById("i04").style.listStyleImage = "url('site/imgs/skillz/sql.svg')";
         document.getElementById("i05").innerHTML = "Resolve (video editing)";
         document.getElementById("i05").style.listStyleImage = "url('site/imgs/skillz/mp4.svg')";
+        document.getElementById("i06").innerHTML = "Java | Java EE";
+        document.getElementById("i06").style.listStyleImage = "url('site/imgs/skillz/java.svg')";
     }
     else{
         $("#ul").show(1);
@@ -198,11 +208,12 @@ function change5() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
-        document.getElementById("i00").innerHTML = "C & C++";
+        $("#i06").show(1);
+        document.getElementById("i00").innerHTML = "C | C++";
         document.getElementById("i00").style.listStyleImage = "url('site/imgs/skillz/cpp.svg')";
-        document.getElementById("i01").innerHTML = "JavaScript & JQuery";
+        document.getElementById("i01").innerHTML = "JavaScript | JQuery";
         document.getElementById("i01").style.listStyleImage = "url('site/imgs/skillz/js.svg')";
-        document.getElementById("i02").innerHTML = "HTML & CSS";
+        document.getElementById("i02").innerHTML = "HTML | CSS";
         document.getElementById("i02").style.listStyleImage = "url('site/imgs/skillz/css.svg')";
         document.getElementById("i03").innerHTML = "Microsoft Excel";
         document.getElementById("i03").style.listStyleImage = "url('site/imgs/skillz/xls.svg')";
@@ -210,6 +221,8 @@ function change5() {
         document.getElementById("i04").style.listStyleImage = "url('site/imgs/skillz/sql.svg')";
         document.getElementById("i05").innerHTML = "Resolve (video editing)";
         document.getElementById("i05").style.listStyleImage = "url('site/imgs/skillz/mp4.svg')";
+        document.getElementById("i06").innerHTML = "Java | Java EE";
+        document.getElementById("i06").style.listStyleImage = "url('site/imgs/skillz/java.svg')";
     }
 }
 
@@ -225,6 +238,7 @@ function langChange() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("one").innerHTML = "მთავარი";
         document.getElementById("one1").innerHTML = "ჰობი";
         document.getElementById("one2").innerHTML = "გამოცდილება";
@@ -244,6 +258,7 @@ function langChange() {
         $("#i03").show(1);
         $("#i04").show(1);
         $("#i05").show(1);
+        $("#i06").hide(1);
         document.getElementById("one").innerHTML = "Home";
         document.getElementById("one1").innerHTML = "Hobby";
         document.getElementById("one2").innerHTML = "Experience";
@@ -253,14 +268,14 @@ function langChange() {
         document.getElementById("banani2").innerHTML = "Luka Aptsiauri";
         document.getElementById("name1").title = "Luka Aptsiauri";
     }
-    if(document.getElementById("eng").innerHTML === "ქარუთული"){
+    if(document.getElementById("eng").innerHTML === "ქართული"){
         document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
         document.getElementById("eng").innerHTML = "ENGLISH";
         document.getElementById("eng1").src = "site/imgs/flags/united-kingdom.svg";
     }
     else{
         document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML
-        document.getElementById("eng").innerHTML = "ქარუთული";
+        document.getElementById("eng").innerHTML = "ქართული";
         document.getElementById("eng1").src = "site/imgs/flags/georgia.svg";
     }
     if(english.test(temp)){

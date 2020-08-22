@@ -39,9 +39,10 @@ svg {
 .text-copy {
   fill: none;
   stroke: white;
+  /*noinspection CssInvalidPropertyValue*/
   stroke-dasharray: 6% 29%;
   stroke-width: 5px;
-  stroke-dashoffset: 0%;
+  stroke-dashoffset: 0;
   animation: stroke-offset 5.5s infinite linear;
 }
 
@@ -169,7 +170,7 @@ svg {
 }
 /*------------------------------------*/
 #content ul{
-  margin-top: 65px;
+  margin-top: 55px;
 }
 #content li{
   margin-left: 120px;
