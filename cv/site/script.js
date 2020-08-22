@@ -1,4 +1,4 @@
-var english = /^[A-Za-z0-9]*$/;
+let english = /^[A-Za-z0-9]*$/;
 
 $(function () {
     $('#titleh').removeClass('titleh2')
