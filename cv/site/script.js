@@ -194,7 +194,7 @@ function langChange() {
         document.getElementById("eng1").src = "site/imgs/flags/united-kingdom.svg";
     }
     else{
-        document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML
+        document.getElementById("hdr").innerHTML = document.getElementById("one").innerHTML;
         document.getElementById("eng").innerHTML = "ქართული";
         document.getElementById("eng1").src = "site/imgs/flags/georgia.svg";
     }
