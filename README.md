@@ -6,4 +6,4 @@ CV for students
 
 Hosted  |  დაჰოსტილია 
 
-https://foxssinofgreed.github.io/CVday/
+https://foxssinofgreed.github.io/CVday/cv/index.html
